@@ -36,9 +36,115 @@
       </script>
     <title>Rinterio</title>
 </head>
-<body class="font-manrope">
-    <header>
+<body class="font-manrope bg-primary">
+    <header class="w-full sm:pt-6 lg:pb-24 sm:pb-16 pb-6 pt-3 bg-gradient-to-t from-[#FFFFFF] to-transparent">
 
+        <!-- Navbar starts -->
+        <nav class="max-w-[95%] lg:max-w-[81.25%] min-[1920px]:max-w-[1560px] mx-auto">
+            <div class="navbar flex justify-between items-center bg-transparent">
+
+                <!-- Navbar logo -->
+                <div class="space-x-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="xl:size-6 size-5 inline bg-[#ABEF5F] rounded-full text-black p-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                    <a class="xl:text-3xl text-2xl font-extrabold text-[#212121]">Rinterio</a>
+                </div>
+
+                <!-- Navbar center menu -->
+                <div class="hidden lg:flex">
+                  <ul class="menu lg:menu-sm xl:menu-md menu-horizontal text-[#494949] px-1">
+                    <li class="font-extrabold"><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Conatct Us</a></li>
+                  </ul>
+                </div>
+
+                <!-- Navbar end -->
+                <div class="space-x-2">
+                    <button class="btn btn-sm btn-circle bg-white hidden sm:inline-flex items-center justify-center">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+
+                    <div tabindex="0" role="button" class="btn btn-sm btn-circle bg-white hidden sm:inline-flex items-center justify-center">
+                        <div class="indicator">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                          </svg>
+                        </div> 
+                    </div>  
+
+                  <a class="btn rounded-[32px] bg-[#ABEF5F] text-lg text-black font-extrabold hidden sm:inline-flex justify-center items-center">
+                    Book Consult
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-black rounded-full text-white p-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                  </a>
+
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-sm btn-circle bg-white lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>                          
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Conatct Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar ends -->
+
+        <!-- Banner content starts -->
+        <div class="w-[95%] lg:max-w-[81.25%] min-[1920px]:max-w-[1560px] mx-auto">
+            <div class="w-full bg-transparent min-h-screen">
+                <div class="w-full text-center">
+                  <div class="max-w-full flex flex-col items-center gap-7">
+                    <img class="w-[85%] lg:w-[49%] sm:w-[60%]" src="assets/banner.png" alt="">
+                    <h1 class="text-3xl/tight sm:text-5xl/tight lg:text-6xl/tight text-[#212121] font-black m-0">A barn house of this design has a striking appearance</h1>
+                    <p class="sm:w-[85%] text-sm/6 sm:text-base/7">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <a class="btn w-full sm:w-auto rounded-[32px] bg-[#ABEF5F]/[0.5] text-lg text-black font-extrabold inline-flex justify-center items-center">
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-[#ABEF5F] rounded-full text-black p-1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Banner content ends -->
     </header>
 
     <main>
